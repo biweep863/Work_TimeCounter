@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF0BAF202C25CBD500D86E7A /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0BAF1F2C25CBD500D86E7A /* CircleButton.swift */; };
+		CF0BAF222C25CD0100D86E7A /* CircleTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0BAF212C25CD0100D86E7A /* CircleTimer.swift */; };
+		CF0BAF252C25E5BB00D86E7A /* ViewA.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0BAF242C25E5BB00D86E7A /* ViewA.swift */; };
+		CF0BAF272C25E5D000D86E7A /* ViewB.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0BAF262C25E5D000D86E7A /* ViewB.swift */; };
+		CF0BAF292C2639E800D86E7A /* SquareCounterArrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0BAF282C2639E800D86E7A /* SquareCounterArrow.swift */; };
+		CF0BAF2D2C29F1EE00D86E7A /* SquareCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0BAF2C2C29F1EE00D86E7A /* SquareCounter.swift */; };
+		CF5077722C252CCC009EA383 /* Work_TimeCounterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5077712C252CCC009EA383 /* Work_TimeCounterApp.swift */; };
+		CF5077742C252CCC009EA383 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5077732C252CCC009EA383 /* ContentView.swift */; };
+		CF5077762C252CCE009EA383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF5077752C252CCE009EA383 /* Assets.xcassets */; };
+		CF5077792C252CCE009EA383 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF5077782C252CCE009EA383 /* Preview Assets.xcassets */; };
+		CF5077832C252CCF009EA383 /* Work_TimeCounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5077822C252CCF009EA383 /* Work_TimeCounterTests.swift */; };
+		CF50778D2C252CCF009EA383 /* Work_TimeCounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF50778C2C252CCF009EA383 /* Work_TimeCounterUITests.swift */; };
+		CF50778F2C252CCF009EA383 /* Work_TimeCounterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF50778E2C252CCF009EA383 /* Work_TimeCounterUITestsLaunchTests.swift */; };
+		CF50779D2C25B629009EA383 /* PomTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF50779C2C25B629009EA383 /* PomTimer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF50777F2C252CCF009EA383 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF5077662C252CCC009EA383 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF50776D2C252CCC009EA383;
+			remoteInfo = Work_TimeCounter;
+		};
+		CF5077892C252CCF009EA383 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF5077662C252CCC009EA383 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF50776D2C252CCC009EA383;
+			remoteInfo = Work_TimeCounter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF0BAF1F2C25CBD500D86E7A /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		CF0BAF212C25CD0100D86E7A /* CircleTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleTimer.swift; sourceTree = "<group>"; };
+		CF0BAF242C25E5BB00D86E7A /* ViewA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewA.swift; sourceTree = "<group>"; };
+		CF0BAF262C25E5D000D86E7A /* ViewB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewB.swift; sourceTree = "<group>"; };
+		CF0BAF282C2639E800D86E7A /* SquareCounterArrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareCounterArrow.swift; sourceTree = "<group>"; };
+		CF0BAF2C2C29F1EE00D86E7A /* SquareCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareCounter.swift; sourceTree = "<group>"; };
+		CF50776E2C252CCC009EA383 /* Work_TimeCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Work_TimeCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF5077712C252CCC009EA383 /* Work_TimeCounterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Work_TimeCounterApp.swift; sourceTree = "<group>"; };
+		CF5077732C252CCC009EA383 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CF5077752C252CCE009EA383 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF5077782C252CCE009EA383 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CF50777E2C252CCF009EA383 /* Work_TimeCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Work_TimeCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF5077822C252CCF009EA383 /* Work_TimeCounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Work_TimeCounterTests.swift; sourceTree = "<group>"; };
+		CF5077882C252CCF009EA383 /* Work_TimeCounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Work_TimeCounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF50778C2C252CCF009EA383 /* Work_TimeCounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Work_TimeCounterUITests.swift; sourceTree = "<group>"; };
+		CF50778E2C252CCF009EA383 /* Work_TimeCounterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Work_TimeCounterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CF50779C2C25B629009EA383 /* PomTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomTimer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF50776B2C252CCC009EA383 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF50777B2C252CCF009EA383 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF5077852C252CCF009EA383 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF0BAF1E2C25CBBE00D86E7A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CF0BAF232C25E5A000D86E7A /* Items */,
+				CF0BAF242C25E5BB00D86E7A /* ViewA.swift */,
+				CF0BAF262C25E5D000D86E7A /* ViewB.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CF0BAF232C25E5A000D86E7A /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				CF0BAF212C25CD0100D86E7A /* CircleTimer.swift */,
+				CF0BAF1F2C25CBD500D86E7A /* CircleButton.swift */,
+				CF0BAF282C2639E800D86E7A /* SquareCounterArrow.swift */,
+				CF0BAF2C2C29F1EE00D86E7A /* SquareCounter.swift */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		CF5077652C252CCC009EA383 = {
+			isa = PBXGroup;
+			children = (
+				CF5077702C252CCC009EA383 /* Work_TimeCounter */,
+				CF5077812C252CCF009EA383 /* Work_TimeCounterTests */,
+				CF50778B2C252CCF009EA383 /* Work_TimeCounterUITests */,
+				CF50776F2C252CCC009EA383 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF50776F2C252CCC009EA383 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF50776E2C252CCC009EA383 /* Work_TimeCounter.app */,
+				CF50777E2C252CCF009EA383 /* Work_TimeCounterTests.xctest */,
+				CF5077882C252CCF009EA383 /* Work_TimeCounterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF5077702C252CCC009EA383 /* Work_TimeCounter */ = {
+			isa = PBXGroup;
+			children = (
+				CF0BAF1E2C25CBBE00D86E7A /* Views */,
+				CF50779B2C25B616009EA383 /* Logic */,
+				CF5077712C252CCC009EA383 /* Work_TimeCounterApp.swift */,
+				CF5077732C252CCC009EA383 /* ContentView.swift */,
+				CF5077752C252CCE009EA383 /* Assets.xcassets */,
+				CF5077772C252CCE009EA383 /* Preview Content */,
+			);
+			path = Work_TimeCounter;
+			sourceTree = "<group>";
+		};
+		CF5077772C252CCE009EA383 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CF5077782C252CCE009EA383 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CF5077812C252CCF009EA383 /* Work_TimeCounterTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF5077822C252CCF009EA383 /* Work_TimeCounterTests.swift */,
+			);
+			path = Work_TimeCounterTests;
+			sourceTree = "<group>";
+		};
+		CF50778B2C252CCF009EA383 /* Work_TimeCounterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF50778C2C252CCF009EA383 /* Work_TimeCounterUITests.swift */,
+				CF50778E2C252CCF009EA383 /* Work_TimeCounterUITestsLaunchTests.swift */,
+			);
+			path = Work_TimeCounterUITests;
+			sourceTree = "<group>";
+		};
+		CF50779B2C25B616009EA383 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				CF50779C2C25B629009EA383 /* PomTimer.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF50776D2C252CCC009EA383 /* Work_TimeCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF5077922C252CCF009EA383 /* Build configuration list for PBXNativeTarget "Work_TimeCounter" */;
+			buildPhases = (
+				CF50776A2C252CCC009EA383 /* Sources */,
+				CF50776B2C252CCC009EA383 /* Frameworks */,
+				CF50776C2C252CCC009EA383 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Work_TimeCounter;
+			productName = Work_TimeCounter;
+			productReference = CF50776E2C252CCC009EA383 /* Work_TimeCounter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF50777D2C252CCF009EA383 /* Work_TimeCounterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF5077952C252CCF009EA383 /* Build configuration list for PBXNativeTarget "Work_TimeCounterTests" */;
+			buildPhases = (
+				CF50777A2C252CCF009EA383 /* Sources */,
+				CF50777B2C252CCF009EA383 /* Frameworks */,
+				CF50777C2C252CCF009EA383 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF5077802C252CCF009EA383 /* PBXTargetDependency */,
+			);
+			name = Work_TimeCounterTests;
+			productName = Work_TimeCounterTests;
+			productReference = CF50777E2C252CCF009EA383 /* Work_TimeCounterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF5077872C252CCF009EA383 /* Work_TimeCounterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF5077982C252CCF009EA383 /* Build configuration list for PBXNativeTarget "Work_TimeCounterUITests" */;
+			buildPhases = (
+				CF5077842C252CCF009EA383 /* Sources */,
+				CF5077852C252CCF009EA383 /* Frameworks */,
+				CF5077862C252CCF009EA383 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF50778A2C252CCF009EA383 /* PBXTargetDependency */,
+			);
+			name = Work_TimeCounterUITests;
+			productName = Work_TimeCounterUITests;
+			productReference = CF5077882C252CCF009EA383 /* Work_TimeCounterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF5077662C252CCC009EA383 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CF50776D2C252CCC009EA383 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					CF50777D2C252CCF009EA383 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CF50776D2C252CCC009EA383;
+					};
+					CF5077872C252CCF009EA383 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CF50776D2C252CCC009EA383;
+					};
+				};
+			};
+			buildConfigurationList = CF5077692C252CCC009EA383 /* Build configuration list for PBXProject "Work_TimeCounter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF5077652C252CCC009EA383;
+			productRefGroup = CF50776F2C252CCC009EA383 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF50776D2C252CCC009EA383 /* Work_TimeCounter */,
+				CF50777D2C252CCF009EA383 /* Work_TimeCounterTests */,
+				CF5077872C252CCF009EA383 /* Work_TimeCounterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF50776C2C252CCC009EA383 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF5077792C252CCE009EA383 /* Preview Assets.xcassets in Resources */,
+				CF5077762C252CCE009EA383 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF50777C2C252CCF009EA383 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF5077862C252CCF009EA383 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF50776A2C252CCC009EA383 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF0BAF292C2639E800D86E7A /* SquareCounterArrow.swift in Sources */,
+				CF50779D2C25B629009EA383 /* PomTimer.swift in Sources */,
+				CF5077742C252CCC009EA383 /* ContentView.swift in Sources */,
+				CF0BAF252C25E5BB00D86E7A /* ViewA.swift in Sources */,
+				CF0BAF272C25E5D000D86E7A /* ViewB.swift in Sources */,
+				CF0BAF202C25CBD500D86E7A /* CircleButton.swift in Sources */,
+				CF0BAF2D2C29F1EE00D86E7A /* SquareCounter.swift in Sources */,
+				CF0BAF222C25CD0100D86E7A /* CircleTimer.swift in Sources */,
+				CF5077722C252CCC009EA383 /* Work_TimeCounterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF50777A2C252CCF009EA383 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF5077832C252CCF009EA383 /* Work_TimeCounterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF5077842C252CCF009EA383 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF50778D2C252CCF009EA383 /* Work_TimeCounterUITests.swift in Sources */,
+				CF50778F2C252CCF009EA383 /* Work_TimeCounterUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF5077802C252CCF009EA383 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF50776D2C252CCC009EA383 /* Work_TimeCounter */;
+			targetProxy = CF50777F2C252CCF009EA383 /* PBXContainerItemProxy */;
+		};
+		CF50778A2C252CCF009EA383 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF50776D2C252CCC009EA383 /* Work_TimeCounter */;
+			targetProxy = CF5077892C252CCF009EA383 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CF5077902C252CCF009EA383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF5077912C252CCF009EA383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF5077932C252CCF009EA383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Work_TimeCounter/Preview Content\"";
+				DEVELOPMENT_TEAM = 4H9UDCCLB6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Work!";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sod.Work-TimeCounter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF5077942C252CCF009EA383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Work_TimeCounter/Preview Content\"";
+				DEVELOPMENT_TEAM = 4H9UDCCLB6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Work!";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sod.Work-TimeCounter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF5077962C252CCF009EA383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4H9UDCCLB6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sod.Work-TimeCounterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Work_TimeCounter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Work_TimeCounter";
+			};
+			name = Debug;
+		};
+		CF5077972C252CCF009EA383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4H9UDCCLB6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sod.Work-TimeCounterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Work_TimeCounter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Work_TimeCounter";
+			};
+			name = Release;
+		};
+		CF5077992C252CCF009EA383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4H9UDCCLB6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sod.Work-TimeCounterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Work_TimeCounter;
+			};
+			name = Debug;
+		};
+		CF50779A2C252CCF009EA383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4H9UDCCLB6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sod.Work-TimeCounterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Work_TimeCounter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF5077692C252CCC009EA383 /* Build configuration list for PBXProject "Work_TimeCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF5077902C252CCF009EA383 /* Debug */,
+				CF5077912C252CCF009EA383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF5077922C252CCF009EA383 /* Build configuration list for PBXNativeTarget "Work_TimeCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF5077932C252CCF009EA383 /* Debug */,
+				CF5077942C252CCF009EA383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF5077952C252CCF009EA383 /* Build configuration list for PBXNativeTarget "Work_TimeCounterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF5077962C252CCF009EA383 /* Debug */,
+				CF5077972C252CCF009EA383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF5077982C252CCF009EA383 /* Build configuration list for PBXNativeTarget "Work_TimeCounterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF5077992C252CCF009EA383 /* Debug */,
+				CF50779A2C252CCF009EA383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF5077662C252CCC009EA383 /* Project object */;
+}
